@@ -1,0 +1,72 @@
+ramesh@ramesh-Victus-by-HP-Gaming-Laptop-15-fa0xxx:~/Desktop/7th Sem/Lab/Compiler Design/Assignment-5$ 
+yacc -d symbol_table.y
+lex symbol_table.l
+gcc y.tab.c lex.yy.c -o symbol_table -ll
+./symbol_table
+symbol_table.y: warning: 1 shift/reduce conflict [-Wconflicts-sr]
+symbol_table.y: note: rerun with option '-Wcounterexamples' to generate conflict counterexamples
+Enter your code (Ctrl+D to end):
+int main() {
+    int a, b, c;
+    c = a + b;        // OK: int + int = int
+    return 0;
+}
+Entering scope: 1
+Entering scope: 2
+Declared: a (type: int, scope: 2, line: 2)
+Declared: b (type: int, scope: 2, line: 2)
+Declared: c (type: int, scope: 2, line: 2)
+
+int main() {
+    int a;
+    float b;
+    char c;
+    a = b + c;        // ERROR: float + char
+    return 0;
+}
+Exiting scope: 2
+Exiting scope: 1
+Entering scope: 1
+Entering scope: 2
+Declared: a (type: int, scope: 2, line: 6)
+Declared: b (type: float, scope: 2, line: 7)
+Declared: c (type: char, scope: 2, line: 8)
+Type Error: Addition operands have different types at line 9 ('float' vs 'char')
+Type Error: Assignment type mismatch at line 9 ('int' vs 'float')
+
+int main() {
+    int a;
+    float b;
+    float result;
+    result = a + b;   // OK: int promotes to float
+    return 0;
+}
+Exiting scope: 2
+Exiting scope: 1
+Entering scope: 1
+Entering scope: 2
+Declared: a (type: int, scope: 2, line: 12)
+Declared: b (type: float, scope: 2, line: 13)
+Declared: result (type: float, scope: 2, line: 14)
+Type Error: Addition operands have different types at line 15 ('int' vs 'float')
+Type Error: Assignment type mismatch at line 15 ('float' vs 'int')
+
+int main() {
+    int x;
+    float y;
+    y = 3.14;
+    x = y;            // ERROR: cannot assign float to int (with warning)
+    return 0;
+}
+Exiting scope: 2
+Exiting scope: 1
+Entering scope: 1
+Entering scope: 2
+Declared: x (type: int, scope: 2, line: 18)
+Declared: y (type: float, scope: 2, line: 19)
+Type Error: Assignment type mismatch at line 20 ('float' vs 'int')
+Type Error: Assignment type mismatch at line 21 ('int' vs 'float')
+
+ramesh@ramesh-Victus-by-HP-Gaming-Laptop-15-fa0xxx:~/Desktop/7th Sem/Lab/Compiler Design/Assignment-5$ 
+
+

@@ -1,0 +1,293 @@
+=== LEXICAL ANALYZER WITH ERROR DETECTION ===
+Processing input...
+
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 1
+TOKEN: Arithmetic Operator  | VALUE: *               | TYPE: 1 | LINE: 1
+TOKEN: Identifier           | VALUE: Sample          | TYPE: 7 | LINE: 1
+TOKEN: Identifier           | VALUE: C               | TYPE: 7 | LINE: 1
+TOKEN: Identifier           | VALUE: Program         | TYPE: 7 | LINE: 1
+TOKEN: Identifier           | VALUE: with            | TYPE: 7 | LINE: 1
+TOKEN: Identifier           | VALUE: various         | TYPE: 7 | LINE: 1
+TOKEN: Identifier           | VALUE: tokens          | TYPE: 7 | LINE: 1
+TOKEN: Identifier           | VALUE: and             | TYPE: 7 | LINE: 1
+TOKEN: Identifier           | VALUE: intentional     | TYPE: 7 | LINE: 1
+TOKEN: Identifier           | VALUE: errors          | TYPE: 7 | LINE: 1
+TOKEN: Arithmetic Operator  | VALUE: *               | TYPE: 1 | LINE: 1
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 1
+TOKEN: Reserved Word        | VALUE: int             | TYPE: 6 | LINE: 3
+TOKEN: Identifier           | VALUE: main            | TYPE: 7 | LINE: 3
+TOKEN: Left Parenthesis     | VALUE: (               | TYPE: 9 | LINE: 3
+TOKEN: Right Parenthesis    | VALUE: )               | TYPE: 9 | LINE: 3
+TOKEN: Left Curly Brace     | VALUE: {               | TYPE: 10 | LINE: 3
+TOKEN: Reserved Word        | VALUE: int             | TYPE: 6 | LINE: 4
+TOKEN: Identifier           | VALUE: x               | TYPE: 7 | LINE: 4
+TOKEN: Assignment Operator  | VALUE: =               | TYPE: 5 | LINE: 4
+TOKEN: Integer Constant     | VALUE: 10              | TYPE: 8 | LINE: 4
+WARNING: Unrecognized character ';' at line 4
+TOKEN: Reserved Word        | VALUE: float           | TYPE: 6 | LINE: 5
+TOKEN: Identifier           | VALUE: y               | TYPE: 7 | LINE: 5
+TOKEN: Assignment Operator  | VALUE: =               | TYPE: 5 | LINE: 5
+TOKEN: Integer Constant     | VALUE: 20              | TYPE: 8 | LINE: 5
+WARNING: Unrecognized character '.' at line 5
+TOKEN: Integer Constant     | VALUE: 5               | TYPE: 8 | LINE: 5
+WARNING: Unrecognized character ';' at line 5
+TOKEN: Reserved Word        | VALUE: char            | TYPE: 6 | LINE: 6
+TOKEN: Identifier           | VALUE: ch              | TYPE: 7 | LINE: 6
+TOKEN: Assignment Operator  | VALUE: =               | TYPE: 5 | LINE: 6
+WARNING: Unrecognized character ''' at line 6
+TOKEN: Identifier           | VALUE: a               | TYPE: 7 | LINE: 6
+WARNING: Unrecognized character ''' at line 6
+WARNING: Unrecognized character ';' at line 6
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 8
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 8
+TOKEN: Identifier           | VALUE: Valid           | TYPE: 7 | LINE: 8
+TOKEN: Identifier           | VALUE: operations      | TYPE: 7 | LINE: 8
+TOKEN: Identifier           | VALUE: x               | TYPE: 7 | LINE: 9
+TOKEN: Assignment Operator  | VALUE: =               | TYPE: 5 | LINE: 9
+TOKEN: Identifier           | VALUE: x               | TYPE: 7 | LINE: 9
+TOKEN: Arithmetic Operator  | VALUE: +               | TYPE: 1 | LINE: 9
+TOKEN: Identifier           | VALUE: y               | TYPE: 7 | LINE: 9
+WARNING: Unrecognized character ';' at line 9
+TOKEN: Reserved Word        | VALUE: if              | TYPE: 6 | LINE: 10
+TOKEN: Left Parenthesis     | VALUE: (               | TYPE: 9 | LINE: 10
+TOKEN: Identifier           | VALUE: x               | TYPE: 7 | LINE: 10
+TOKEN: Relational Operator  | VALUE: >               | TYPE: 2 | LINE: 10
+TOKEN: Integer Constant     | VALUE: 15              | TYPE: 8 | LINE: 10
+TOKEN: Right Parenthesis    | VALUE: )               | TYPE: 9 | LINE: 10
+TOKEN: Left Curly Brace     | VALUE: {               | TYPE: 10 | LINE: 10
+TOKEN: Identifier           | VALUE: printf          | TYPE: 7 | LINE: 11
+TOKEN: Left Parenthesis     | VALUE: (               | TYPE: 9 | LINE: 11
+TOKEN: Right Parenthesis    | VALUE: )               | TYPE: 9 | LINE: 11
+WARNING: Unrecognized character ';' at line 11
+TOKEN: Right Curly Brace    | VALUE: }               | TYPE: 10 | LINE: 12
+TOKEN: Reserved Word        | VALUE: else            | TYPE: 6 | LINE: 12
+TOKEN: Left Curly Brace     | VALUE: {               | TYPE: 10 | LINE: 12
+TOKEN: Identifier           | VALUE: printf          | TYPE: 7 | LINE: 13
+TOKEN: Left Parenthesis     | VALUE: (               | TYPE: 9 | LINE: 13
+TOKEN: Right Parenthesis    | VALUE: )               | TYPE: 9 | LINE: 13
+WARNING: Unrecognized character ';' at line 13
+TOKEN: Right Curly Brace    | VALUE: }               | TYPE: 10 | LINE: 14
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 16
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 16
+TOKEN: Identifier           | VALUE: Loop            | TYPE: 7 | LINE: 16
+TOKEN: Identifier           | VALUE: constructs      | TYPE: 7 | LINE: 16
+TOKEN: Reserved Word        | VALUE: for             | TYPE: 6 | LINE: 17
+TOKEN: Left Parenthesis     | VALUE: (               | TYPE: 9 | LINE: 17
+TOKEN: Reserved Word        | VALUE: int             | TYPE: 6 | LINE: 17
+TOKEN: Identifier           | VALUE: i               | TYPE: 7 | LINE: 17
+TOKEN: Assignment Operator  | VALUE: =               | TYPE: 5 | LINE: 17
+TOKEN: Integer Constant     | VALUE: 0               | TYPE: 8 | LINE: 17
+WARNING: Unrecognized character ';' at line 17
+TOKEN: Identifier           | VALUE: i               | TYPE: 7 | LINE: 17
+TOKEN: Relational Operator  | VALUE: <               | TYPE: 2 | LINE: 17
+TOKEN: Integer Constant     | VALUE: 10              | TYPE: 8 | LINE: 17
+WARNING: Unrecognized character ';' at line 17
+TOKEN: Identifier           | VALUE: i               | TYPE: 7 | LINE: 17
+TOKEN: Arithmetic Operator  | VALUE: +               | TYPE: 1 | LINE: 17
+TOKEN: Arithmetic Operator  | VALUE: +               | TYPE: 1 | LINE: 17
+TOKEN: Right Parenthesis    | VALUE: )               | TYPE: 9 | LINE: 17
+TOKEN: Left Curly Brace     | VALUE: {               | TYPE: 10 | LINE: 17
+TOKEN: Reserved Word        | VALUE: do              | TYPE: 6 | LINE: 18
+TOKEN: Left Curly Brace     | VALUE: {               | TYPE: 10 | LINE: 18
+TOKEN: Identifier           | VALUE: x               | TYPE: 7 | LINE: 19
+TOKEN: Assignment Operator  | VALUE: +=              | TYPE: 5 | LINE: 19
+TOKEN: Integer Constant     | VALUE: 1               | TYPE: 8 | LINE: 19
+WARNING: Unrecognized character ';' at line 19
+TOKEN: Right Curly Brace    | VALUE: }               | TYPE: 10 | LINE: 20
+TOKEN: Reserved Word        | VALUE: while           | TYPE: 6 | LINE: 20
+TOKEN: Left Parenthesis     | VALUE: (               | TYPE: 9 | LINE: 20
+TOKEN: Identifier           | VALUE: x               | TYPE: 7 | LINE: 20
+TOKEN: Relational Operator  | VALUE: <               | TYPE: 2 | LINE: 20
+TOKEN: Integer Constant     | VALUE: 100             | TYPE: 8 | LINE: 20
+TOKEN: Right Parenthesis    | VALUE: )               | TYPE: 9 | LINE: 20
+WARNING: Unrecognized character ';' at line 20
+TOKEN: Right Curly Brace    | VALUE: }               | TYPE: 10 | LINE: 21
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 23
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 23
+TOKEN: Identifier           | VALUE: Bitwise         | TYPE: 7 | LINE: 23
+TOKEN: Identifier           | VALUE: operations      | TYPE: 7 | LINE: 23
+TOKEN: Reserved Word        | VALUE: int             | TYPE: 6 | LINE: 24
+TOKEN: Identifier           | VALUE: a               | TYPE: 7 | LINE: 24
+TOKEN: Assignment Operator  | VALUE: =               | TYPE: 5 | LINE: 24
+TOKEN: Integer Constant     | VALUE: 5               | TYPE: 8 | LINE: 24
+WARNING: Unrecognized character ';' at line 24
+TOKEN: Reserved Word        | VALUE: int             | TYPE: 6 | LINE: 25
+TOKEN: Identifier           | VALUE: b               | TYPE: 7 | LINE: 25
+TOKEN: Assignment Operator  | VALUE: =               | TYPE: 5 | LINE: 25
+TOKEN: Integer Constant     | VALUE: 3               | TYPE: 8 | LINE: 25
+WARNING: Unrecognized character ';' at line 25
+TOKEN: Reserved Word        | VALUE: int             | TYPE: 6 | LINE: 26
+TOKEN: Identifier           | VALUE: result          | TYPE: 7 | LINE: 26
+TOKEN: Assignment Operator  | VALUE: =               | TYPE: 5 | LINE: 26
+TOKEN: Identifier           | VALUE: a               | TYPE: 7 | LINE: 26
+TOKEN: Bitwise Operator     | VALUE: &               | TYPE: 4 | LINE: 26
+TOKEN: Identifier           | VALUE: b               | TYPE: 7 | LINE: 26
+WARNING: Unrecognized character ';' at line 26
+TOKEN: Identifier           | VALUE: result          | TYPE: 7 | LINE: 27
+TOKEN: Assignment Operator  | VALUE: |=              | TYPE: 5 | LINE: 27
+TOKEN: Left Parenthesis     | VALUE: (               | TYPE: 9 | LINE: 27
+TOKEN: Identifier           | VALUE: a               | TYPE: 7 | LINE: 27
+TOKEN: Bitwise Operator     | VALUE: ^               | TYPE: 4 | LINE: 27
+TOKEN: Identifier           | VALUE: b               | TYPE: 7 | LINE: 27
+TOKEN: Right Parenthesis    | VALUE: )               | TYPE: 9 | LINE: 27
+WARNING: Unrecognized character ';' at line 27
+TOKEN: Identifier           | VALUE: result          | TYPE: 7 | LINE: 28
+TOKEN: Assignment Operator  | VALUE: <<=             | TYPE: 5 | LINE: 28
+TOKEN: Integer Constant     | VALUE: 2               | TYPE: 8 | LINE: 28
+WARNING: Unrecognized character ';' at line 28
+TOKEN: Identifier           | VALUE: result          | TYPE: 7 | LINE: 29
+TOKEN: Assignment Operator  | VALUE: >>=             | TYPE: 5 | LINE: 29
+TOKEN: Integer Constant     | VALUE: 1               | TYPE: 8 | LINE: 29
+WARNING: Unrecognized character ';' at line 29
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 31
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 31
+TOKEN: Identifier           | VALUE: Relational      | TYPE: 7 | LINE: 31
+TOKEN: Identifier           | VALUE: operations      | TYPE: 7 | LINE: 31
+TOKEN: Reserved Word        | VALUE: if              | TYPE: 6 | LINE: 32
+TOKEN: Left Parenthesis     | VALUE: (               | TYPE: 9 | LINE: 32
+TOKEN: Identifier           | VALUE: a               | TYPE: 7 | LINE: 32
+TOKEN: Relational Operator  | VALUE: ==              | TYPE: 2 | LINE: 32
+TOKEN: Identifier           | VALUE: b               | TYPE: 7 | LINE: 32
+TOKEN: Logical Operator     | VALUE: ||              | TYPE: 3 | LINE: 32
+TOKEN: Identifier           | VALUE: a               | TYPE: 7 | LINE: 32
+TOKEN: Relational Operator  | VALUE: !=              | TYPE: 2 | LINE: 32
+TOKEN: Identifier           | VALUE: b               | TYPE: 7 | LINE: 32
+TOKEN: Right Parenthesis    | VALUE: )               | TYPE: 9 | LINE: 32
+TOKEN: Left Curly Brace     | VALUE: {               | TYPE: 10 | LINE: 32
+TOKEN: Reserved Word        | VALUE: if              | TYPE: 6 | LINE: 33
+TOKEN: Left Parenthesis     | VALUE: (               | TYPE: 9 | LINE: 33
+TOKEN: Identifier           | VALUE: a               | TYPE: 7 | LINE: 33
+TOKEN: Relational Operator  | VALUE: <=              | TYPE: 2 | LINE: 33
+TOKEN: Identifier           | VALUE: b               | TYPE: 7 | LINE: 33
+TOKEN: Logical Operator     | VALUE: &&              | TYPE: 3 | LINE: 33
+TOKEN: Identifier           | VALUE: a               | TYPE: 7 | LINE: 33
+TOKEN: Relational Operator  | VALUE: >=              | TYPE: 2 | LINE: 33
+TOKEN: Identifier           | VALUE: b               | TYPE: 7 | LINE: 33
+TOKEN: Right Parenthesis    | VALUE: )               | TYPE: 9 | LINE: 33
+TOKEN: Left Curly Brace     | VALUE: {               | TYPE: 10 | LINE: 33
+TOKEN: Identifier           | VALUE: printf          | TYPE: 7 | LINE: 34
+TOKEN: Left Parenthesis     | VALUE: (               | TYPE: 9 | LINE: 34
+TOKEN: Right Parenthesis    | VALUE: )               | TYPE: 9 | LINE: 34
+WARNING: Unrecognized character ';' at line 34
+TOKEN: Right Curly Brace    | VALUE: }               | TYPE: 10 | LINE: 35
+TOKEN: Right Curly Brace    | VALUE: }               | TYPE: 10 | LINE: 36
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 38
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 38
+TOKEN: Identifier           | VALUE: Assignment      | TYPE: 7 | LINE: 38
+TOKEN: Identifier           | VALUE: operations      | TYPE: 7 | LINE: 38
+TOKEN: Identifier           | VALUE: a               | TYPE: 7 | LINE: 39
+TOKEN: Assignment Operator  | VALUE: +=              | TYPE: 5 | LINE: 39
+TOKEN: Integer Constant     | VALUE: 5               | TYPE: 8 | LINE: 39
+WARNING: Unrecognized character ';' at line 39
+TOKEN: Identifier           | VALUE: b               | TYPE: 7 | LINE: 40
+TOKEN: Assignment Operator  | VALUE: -=              | TYPE: 5 | LINE: 40
+TOKEN: Integer Constant     | VALUE: 3               | TYPE: 8 | LINE: 40
+WARNING: Unrecognized character ';' at line 40
+TOKEN: Identifier           | VALUE: result          | TYPE: 7 | LINE: 41
+TOKEN: Assignment Operator  | VALUE: *=              | TYPE: 5 | LINE: 41
+TOKEN: Integer Constant     | VALUE: 2               | TYPE: 8 | LINE: 41
+WARNING: Unrecognized character ';' at line 41
+TOKEN: Identifier           | VALUE: result          | TYPE: 7 | LINE: 42
+TOKEN: Assignment Operator  | VALUE: /=              | TYPE: 5 | LINE: 42
+TOKEN: Integer Constant     | VALUE: 4               | TYPE: 8 | LINE: 42
+WARNING: Unrecognized character ';' at line 42
+TOKEN: Identifier           | VALUE: result          | TYPE: 7 | LINE: 43
+TOKEN: Assignment Operator  | VALUE: %=              | TYPE: 5 | LINE: 43
+TOKEN: Integer Constant     | VALUE: 3               | TYPE: 8 | LINE: 43
+WARNING: Unrecognized character ';' at line 43
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 45
+TOKEN: Arithmetic Operator  | VALUE: *               | TYPE: 1 | LINE: 45
+TOKEN: Identifier           | VALUE: INTENTIONAL     | TYPE: 7 | LINE: 45
+TOKEN: Identifier           | VALUE: ERRORS          | TYPE: 7 | LINE: 45
+TOKEN: Identifier           | VALUE: FOR             | TYPE: 7 | LINE: 45
+TOKEN: Identifier           | VALUE: TESTING         | TYPE: 7 | LINE: 45
+TOKEN: Arithmetic Operator  | VALUE: *               | TYPE: 1 | LINE: 45
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 45
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 47
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 47
+TOKEN: Identifier           | VALUE: Error           | TYPE: 7 | LINE: 47
+TOKEN: Integer Constant     | VALUE: 1               | TYPE: 8 | LINE: 47
+WARNING: Unrecognized character ':' at line 47
+TOKEN: Identifier           | VALUE: Invalid         | TYPE: 7 | LINE: 47
+TOKEN: Identifier           | VALUE: characters      | TYPE: 7 | LINE: 47
+TOKEN: Reserved Word        | VALUE: int             | TYPE: 6 | LINE: 48
+ERROR: Invalid character(s) in token | VALUE: value$          | LINE: 48
+TOKEN: Assignment Operator  | VALUE: =               | TYPE: 5 | LINE: 48
+ERROR: Invalid number format | VALUE: 12$34           | LINE: 48
+WARNING: Unrecognized character ';' at line 48
+TOKEN: Reserved Word        | VALUE: char            | TYPE: 6 | LINE: 49
+ERROR: Invalid character(s) in token | VALUE: invalid@        | LINE: 49
+TOKEN: Assignment Operator  | VALUE: =               | TYPE: 5 | LINE: 49
+WARNING: Unrecognized character ''' at line 49
+TOKEN: Identifier           | VALUE: x               | TYPE: 7 | LINE: 49
+WARNING: Unrecognized character ''' at line 49
+WARNING: Unrecognized character ';' at line 49
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 51
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 51
+TOKEN: Identifier           | VALUE: Error           | TYPE: 7 | LINE: 51
+TOKEN: Integer Constant     | VALUE: 2               | TYPE: 8 | LINE: 51
+WARNING: Unrecognized character ':' at line 51
+TOKEN: Identifier           | VALUE: Long            | TYPE: 7 | LINE: 51
+TOKEN: Identifier           | VALUE: identifier      | TYPE: 7 | LINE: 51
+TOKEN: Left Parenthesis     | VALUE: (               | TYPE: 9 | LINE: 51
+TOKEN: Identifier           | VALUE: exceeds         | TYPE: 7 | LINE: 51
+TOKEN: Integer Constant     | VALUE: 31              | TYPE: 8 | LINE: 51
+TOKEN: Identifier           | VALUE: characters      | TYPE: 7 | LINE: 51
+TOKEN: Right Parenthesis    | VALUE: )               | TYPE: 9 | LINE: 51
+TOKEN: Reserved Word        | VALUE: int             | TYPE: 6 | LINE: 52
+ERROR: Identifier exceeds maximum length (31) | VALUE: this_is_a_very_long_identifier_name_that_exceeds_maximum_length | LINE: 52
+TOKEN: Assignment Operator  | VALUE: =               | TYPE: 5 | LINE: 52
+TOKEN: Integer Constant     | VALUE: 5               | TYPE: 8 | LINE: 52
+WARNING: Unrecognized character ';' at line 52
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 54
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 54
+TOKEN: Identifier           | VALUE: Error           | TYPE: 7 | LINE: 54
+TOKEN: Integer Constant     | VALUE: 3               | TYPE: 8 | LINE: 54
+WARNING: Unrecognized character ':' at line 54
+TOKEN: Identifier           | VALUE: Long            | TYPE: 7 | LINE: 54
+TOKEN: Identifier           | VALUE: number          | TYPE: 7 | LINE: 54
+TOKEN: Left Parenthesis     | VALUE: (               | TYPE: 9 | LINE: 54
+TOKEN: Identifier           | VALUE: exceeds         | TYPE: 7 | LINE: 54
+TOKEN: Integer Constant     | VALUE: 10              | TYPE: 8 | LINE: 54
+TOKEN: Identifier           | VALUE: digits          | TYPE: 7 | LINE: 54
+TOKEN: Right Parenthesis    | VALUE: )               | TYPE: 9 | LINE: 54
+TOKEN: Reserved Word        | VALUE: int             | TYPE: 6 | LINE: 55
+TOKEN: Identifier           | VALUE: big_number      | TYPE: 7 | LINE: 55
+TOKEN: Assignment Operator  | VALUE: =               | TYPE: 5 | LINE: 55
+ERROR: Number exceeds maximum length (10) | VALUE: 12345678901234567890 | LINE: 55
+WARNING: Unrecognized character ';' at line 55
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 57
+TOKEN: Arithmetic Operator  | VALUE: /               | TYPE: 1 | LINE: 57
+TOKEN: Identifier           | VALUE: Error           | TYPE: 7 | LINE: 57
+TOKEN: Integer Constant     | VALUE: 4               | TYPE: 8 | LINE: 57
+WARNING: Unrecognized character ':' at line 57
+TOKEN: Identifier           | VALUE: Unmatched       | TYPE: 7 | LINE: 57
+TOKEN: Identifier           | VALUE: string          | TYPE: 7 | LINE: 57
+TOKEN: Identifier           | VALUE: printf          | TYPE: 7 | LINE: 58
+TOKEN: Left Parenthesis     | VALUE: (               | TYPE: 9 | LINE: 58
+ERROR: Unmatched string literal | VALUE: "This is an unmatched string
+    
+    // Error 5: Spelling errors
+    itn count = 0;
+    flot price = 99.99;
+    fi (count > 0) {
+        // do something
+    }
+    esle {
+        // do something else
+    }
+    
+    // Error 6: Invalid number formats
+    int mixed1 = 123abc;
+    int mixed2 = 45def67;
+    
+    return 0;
+}
+ | LINE: 58
+
+=== ANALYSIS SUMMARY ===
+Total tokens recognized: 224
+Total errors found: 6
+Total lines processed: 58
+⚠ Lexical errors detected. Please review the output above.
+ramesh@ramesh-Victus-by-HP-Gaming-Laptop-15-fa0xxx:~/Desktop/Compiler Design/Assignment-3$ 

@@ -1,0 +1,80 @@
+C Subset Syntax Analyzer
+========================
+Enter your C code (Ctrl+D to end input):
+Variable declared: global_var at line 4
+Array declared: global_array[10] at line 5
+Variable declared: a at line 8
+Variable declared: b at line 8
+Function declarator: add at line 8
+Variable declared: result at line 9
+Assignment at line 10
+Return statement with value at line 11
+Function definition completed at line 12
+Function declarator: display at line 15
+Variable declared: message at line 16
+Assignment at line 17
+Return statement at line 18
+Function definition completed at line 19
+Main function declarator at line 22
+Variable declared: x at line 24
+Variable declared: y at line 24
+Variable declared: sum at line 24
+Variable declared: average at line 25
+Array declared: numbers[5] at line 26
+Variable declared: i at line 27
+Assignment at line 30
+Assignment at line 31
+Assignment at line 32
+Array access at line 35
+Assignment at line 35
+Array access at line 36
+Assignment at line 36
+Array access at line 37
+Assignment at line 37
+Function call with args at line 40
+Assignment at line 40
+Function call (no args) at line 41
+Assignment at line 45
+Assignment at line 47
+If-else statement at line 48
+Assignment at line 53
+If statement at line 55
+If statement at line 58
+Assignment at line 59
+Array access at line 60
+Array access at line 60
+Assignment at line 60
+While loop at line 61
+Assignment at line 64
+Array access at line 65
+Assignment at line 65
+For loop at line 66
+Assignment at line 69
+Assignment at line 73
+If statement at line 76
+Assignment at line 77
+If statement at line 81
+Return statement with value at line 86
+Function definition completed at line 87
+Parsing completed successfully!
+
+Parsing completed successfully!
+
+--- Symbol Table ---
+Name            Type            Line
+----            ----            ----
+i               variable        27
+numbers         array           26
+average         variable        25
+sum             variable        24
+y               variable        24
+x               variable        24
+message         variable        16
+display         function        15
+result          variable        9
+add             function        8
+b               variable        8
+a               variable        8
+global_array    array           5
+global_var      variable        4
+-------------------

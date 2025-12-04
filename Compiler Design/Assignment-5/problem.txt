@@ -1,0 +1,21 @@
+Assignment on Symbol Table Management:--
+
+Consider the assumptions for the language previously considered in last lab sessions. Variables of data types allowed in the subset can be defined at the very beginning of any function / block. A variable must be defined before it is used. Using YACC, define the grammar rules and associated set of actions for the following.
+
+
+a) Find the data type for each newly created variable and create symbol table by adding the data type and scope information for each declared variable.
+
+Continue the previous assignment and Consider the following assignments on Type Checking. Using YACC, define the grammar rules and associated set of actions for checking following Type expressions:
+
+a)Types of all the sub-expressions in an expression must be of the same type otherwise, show a type error
+message.
+
+b) Check whether or not the assignment statement is type correct. The type of left and right side of an
+assignment statement must be of similar type, if not similar show type-error with line number. Detect an illegal assignment.
+
+c) Expressions in conditional and while statement, type of all operands must be of the same type. For any
+type-error show the error message with line number.
+
+d) Identify memory errors, such as attempting to use an integer as a pointer
+
+e) Type checking for statements like Array declarations.

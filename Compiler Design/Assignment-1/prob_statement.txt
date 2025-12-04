@@ -1,0 +1,11 @@
+Consider the following assignment for Lexical Analysis:
+
+Implement a lexical analyzer using C program for the following types of tokens:
+a) Arithmetic, Relational, Logical, Bitwise and Assignment Operators of C.
+b) Reserved words:int, float,char, for, while, if, else etc.
+c) Identifier.
+d) Integer Constants.
+e) Parentheses, Curly braces
+Design a complete transition diagram for the whole. Follow the ideas of yylex, yytext, yyleng, yylineno etc. as stated in the class.
+
+Continuation of the Previous assignment. Create a complete transition diagram and implement it according to the design. Upload a signed and scanned copy of the finalized transition diagram along with the corresponding implementation code.  Submit the same by today, 4:35 pm

@@ -1,0 +1,3 @@
+Assignments on Code Generation:
+Write a program that will read the Intermediate Representation (three address statements) for assignment statements, if statements, if-else statements and while statements one by one and generate the assembly code for a target machine. The target code generation scheme follows the code generation strategy given in: A. V. Aho, R. Shethi, J.D. Ullman, “Compilers, principles,
+techniques and Tools”, pp 535 – 541. For code generation, the instruction set of 8085/8086 microprocessor is to be used.

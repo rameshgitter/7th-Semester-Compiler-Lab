@@ -1,0 +1,14 @@
+; This is a comment - will be ignored
+t = a - b
+u = a - c
+v = t + u
+d = v + u
+
+; If statement example
+if x < 0 goto L1
+y = x + 1
+goto L2
+L1:
+y = x - 1
+L2:
+z = y * 2

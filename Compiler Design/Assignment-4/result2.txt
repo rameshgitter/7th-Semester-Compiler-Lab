@@ -1,0 +1,21 @@
+C Subset Syntax Analyzer
+========================
+Enter your C code (Ctrl+D to end input):
+Variable declared: global_var at line 4
+Variable declared: a at line 7
+Variable declared: b at line 7
+Function declarator: multiply at line 7
+Variable declared: result at line 8
+Assignment at line 9
+Return statement with value at line 10
+Function definition (no return type) at line 11
+Main function declarator at line 13
+Variable declared: x at line 15
+Variable declared: y at line 15
+Assignment at line 18
+Assignment at line 19
+Error: Undeclared variable 'z' used at line 20
+Assignment at line 20
+Syntax Error at line 23: syntax error near 'x'
+
+Parsing failed due to syntax errors.

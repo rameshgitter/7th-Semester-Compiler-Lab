@@ -1,0 +1,22 @@
+Assignment on Lexical Analyzer:--
+
+Implement a lexical analyzer using the tool: lex/flex for the following types of tokens:
+
+a) Arithmetic, Relational, Logical, Bitwise and Assignment Operators of C.
+b) Reserved words: int, float, char, for, do, while, if and else.
+c) Identifier.
+d) Integer Constants.
+e) Parentheses, Curly braces
+
+Take a complete C program as input and generate the tokens.
+
+
+
+
+Try to detect all types of lexical errors that can occur in a lexical analyzer.
+Possible types of lexical errors are as follows:
+1. Exceeding length of identifier or numeric constants,
+2. Appearance of illegal characters,
+3. Unmatched string,
+4. Spelling Error in identifier,
+5. Replacing a character with an incorrect character. (As for example: int x = 12$34;)
